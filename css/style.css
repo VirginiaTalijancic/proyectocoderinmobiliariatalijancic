@@ -1,0 +1,218 @@
+
+.containerHeader{
+    border: 5px rgb(71, 11, 11) solid;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;  
+}
+
+  .formTitle{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color:black ;
+    font-weight: bold;
+    margin-bottom: 45px;
+    letter-spacing: 2px;
+    font-size: 50px;
+  }
+  
+
+  .buttonInmobiliaria{
+    border-radius: 5px;
+    background-color: black;
+  }
+  
+  .buttonInmobiliaria:hover{
+    background-color: rgb(71, 11, 11);
+    cursor: pointer;
+  }
+
+.containerCards{
+  border: 5px rgb(71, 11, 11) solid;
+  padding: 5px;
+}
+
+.header__navLogo {
+    width: 3em;
+  }
+  
+.navInmobiliaria{
+    color: black solid;
+}
+
+  .nav-item {
+    list-style: none;
+    color: black solid;
+    font-weight: bold;
+  }
+  
+  .nav-item:hover {
+    transform: scale(1, 2);
+    cursor: pointer;
+  }
+
+  .inmmobiliariaLink{
+    color: black;
+  }
+  
+
+
+  .titulo-header {
+    display: flexbox;
+    justify-content: center;
+    margin-left: 15px;
+    color: rgb(105, 18, 18);
+    font-weight: bold;
+  }
+  
+  .titulo-header:hover {
+    transform: scale(1, 2);
+    cursor: pointer;
+  }
+  
+  .carousel-inner {
+    margin-top: 15px;
+    max-height: 39rem;
+  }
+
+  .containerCards{
+    margin: 10px;
+  }
+
+  .carTitulo{
+    color: brown;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-title{
+    font-weight: bold;
+    color: rgb(114, 26, 26);
+  }
+
+  .cardInmobiliaria{
+    transition: all 0,25s;
+  }
+
+  .cardInmobiliaria:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(114, 26, 26);
+  }
+
+  .link-inmobiliaria{
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   background-color: rgb(114, 26, 26);
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   border-radius: 25px;
+   margin: 5px;
+   font-weight: bolder;
+  }
+    
+  .mapaFooter{
+    color: rgb(221, 3, 3);
+    font-weight: bold;
+  }
+
+  .navFooter{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .mainInmobiliaria-Loteos{
+    background-image: url(../fotos/LOTEOS-2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px; ;
+    padding: 0px;
+  }
+
+  .loteosMedidas{
+    color:rgb(221, 3, 3);
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+  }
+
+  .ventaDormitorios{
+    display: flex;
+    font-weight: bold;
+    color: black;
+  }
+
+  .Tasaciones{
+    background-image: url(../fotos/tasacion-y-valoracion-perito-arquitecto-peritacion-dictamen-pericial.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .titleTasacion{
+    color:rgb(114, 26, 26);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .form-label{
+    text-decoration: underline;
+    color:rgb(114, 26, 26);
+    font-weight: bold;
+  }
+
+  
+  .mainInmobiliaria{
+    height: 100vh;
+    background-image: url(../fotos/3\ \(2\).jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px; 
+  }
+
+  .mainLoteos{
+    background-image: url(../fotos/LOTEOS-2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+
+
+  @media (max-width:576px){
+    .mainInmobiliaria{
+      height: 50vh;
+      background-image: url(../fotos/3\ \(2\).jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      
+    }
+   }
+ 
+   @media (max-width:576px){
+    .mainLoteos{
+      height: 30vh;
+      background-image: url(../fotos/LOTEOS-2.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin: 10px;
+    }
+   }
+ 
