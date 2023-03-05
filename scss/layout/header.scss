@@ -1,0 +1,47 @@
+header{
+    .containerHeader{
+        border: 5px rgb(71, 11, 11) solid;
+        display: flexbox;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .header__navLogo{
+        width: 3em;
+    }
+
+    .titulo-header{
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+        color: $color_3;
+        font-weight: bold;
+        &:hover{
+            transform: scale(1,2);
+            cursor: pointer;
+        }
+    }
+
+   }
+
+   .navInmobiliaria{
+    color: $color_2;
+   }
+
+   .nav-item{
+    list-style: none;
+    color: $color_2;
+    font-weight: bold;
+    &:hover{
+        transform: scale(1,2);
+        cursor: pointer;
+    }
+   }
+
+.inmobiliariaLink{
+    color: $color_1;
+}
+
+
+
+

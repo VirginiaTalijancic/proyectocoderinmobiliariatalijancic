@@ -1,0 +1,58 @@
+main{
+    .mainInmobiliaria{
+        height: 100vh;
+        background-image: url(/fotos/banner.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainLoteos{
+        background-image: url(/fotos/LOTEOS-2.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        }
+
+    @media (max-width:579px){
+        .mainInmobiliaria{
+            height: 50vh;
+        }
+
+        .mainLoteos{
+            height: 30vh;
+        }
+    }
+}
+
+    .carTitulo{
+        color: $color_4;
+        font-weight: $negrita;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-title{
+        font-weight: $negrita;
+        color: $color_5;
+    }
+
+    .cardInmobiliaria{
+        transition: all 0,25s;
+        &:hover{
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px rgb(114, 26, 26);
+        }
+    }
+
+    .link-inmobiliaria{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: $background-color_3;
+        font-weight: $negrita;
+        color: $color_6;
+        border-radius: 5px;
+    }

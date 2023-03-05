@@ -1,0 +1,30 @@
+//URL letras google fonts//
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap');
+
+//Variables tipografia//
+
+$titulos-tipografia: 'serif';
+
+$paraffos-tipofrafia: 'merriweather';
+
+$negrita:'bold';
+
+
+//tipografia titulos//
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $titulos-tipografia;
+}
+
+//tipogragia parrafos//
+
+p,li,a{
+    font-family: $paraffos-tipofrafia;
+}
+
+//negrita//
+p,li,a{
+    font-weight:$negrita;
+}

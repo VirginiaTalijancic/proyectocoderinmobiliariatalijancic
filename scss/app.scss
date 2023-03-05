@@ -1,0 +1,16 @@
+//General//
+@import "./general/tipografia.scss";
+@import "./general/colores.scss";
+
+//Layout//
+@import "./layout/header.scss";
+@import "./layout/main.scss";
+@import "./layout/footer.scss";
+
+
+//Paginas//
+@import "./paginas/inicio.scss";
+@import "./paginas/loteos.scss";
+@import "./paginas/ventas.scss";
+@import "./paginas/alquileres.scss";
+@import "./paginas/tasaciones.scss";

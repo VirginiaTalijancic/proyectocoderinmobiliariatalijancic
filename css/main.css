@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "serif"; }
+
+p, li, a {
+  font-family: "merriweather"; }
+
+p, li, a {
+  font-weight: "bold"; }
+
+header .containerHeader {
+  border: 5px #470b0b solid;
+  display: flexbox;
+  justify-content: center;
+  justify-items: center; }
+
+header .header__navLogo {
+  width: 3em; }
+
+header .titulo-header {
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  color: #691212;
+  font-weight: bold; }
+  header .titulo-header:hover {
+    transform: scale(1, 2);
+    cursor: pointer; }
+
+.navInmobiliaria {
+  color: black solid; }
+
+.nav-item {
+  list-style: none;
+  color: black solid;
+  font-weight: bold; }
+  .nav-item:hover {
+    transform: scale(1, 2);
+    cursor: pointer; }
+
+.inmobiliariaLink {
+  color: black; }
+
+main .mainInmobiliaria {
+  height: 100vh;
+  background-image: url(/fotos/banner.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .mainLoteos {
+  background-image: url(/fotos/LOTEOS-2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media (max-width: 579px) {
+  main .mainInmobiliaria {
+    height: 50vh; }
+  main .mainLoteos {
+    height: 30vh; } }
+
+.carTitulo {
+  color: brown;
+  font-weight: "bold";
+  display: flex;
+  justify-content: center; }
+
+.card-title {
+  font-weight: "bold";
+  color: #721a1a; }
+
+.cardInmobiliaria {
+  transition: all 0,25s; }
+  .cardInmobiliaria:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px #721a1a; }
+
+.link-inmobiliaria {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #721a1a;
+  font-weight: "bold";
+  color: white;
+  border-radius: 5px; }
+
+footer .mapaFooter {
+  color: #dd0303;
+  font-weight: "bold"; }
+
+footer .navFooter {
+  text-decoration: none;
+  color: black;
+  font-weight: "bold"; }
+
+.Tasaciones {
+  background-image: url(../fotos/tasacion-y-valoracion-perito-arquitecto-peritacion-dictamen-pericial.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.titleTasacion {
+  color: #721a1a;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
