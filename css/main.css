@@ -88,6 +88,23 @@ main .mainLoteos {
   color: white;
   border-radius: 5px; }
 
+#galeria {
+  border: 5px solid black; }
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 250px; }
+
+#galeria img:hover {
+  border: 5px solid #721a1a; }
+
+#galeria img:hover {
+  filter: blur(2px); }
+
 footer .mapaFooter {
   color: #dd0303;
   font-weight: "bold"; }
