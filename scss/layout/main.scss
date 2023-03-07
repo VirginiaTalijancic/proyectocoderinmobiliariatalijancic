@@ -79,3 +79,39 @@ main{
    #galeria img:hover{
     filter: blur(2px);
    }
+
+
+
+.colors-light-gray {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.sideText, .product-text, .empresa-text {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+.p-5 {
+    padding: 3rem!important;
+}
+.align-self-center {
+    align-self: center!important;
+}
+
+.colors-dark {
+    background-color: #212529;
+    color: #fff;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+
