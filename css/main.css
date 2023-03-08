@@ -38,7 +38,7 @@ header .titulo-header {
 
 main .mainInmobiliaria {
   height: 100vh;
-  background-image: url(../fotos/banner.jpg);
+  background-image: url(/fotos/banner.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
