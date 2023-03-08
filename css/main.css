@@ -45,7 +45,7 @@ main .mainInmobiliaria {
   align-items: center; }
 
 main .mainLoteos {
-  background-image: url(../fotos/LOTEOS-2.jpg);
+  background-image: url(/fotos/LOTEOS-2.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
