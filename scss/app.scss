@@ -1,6 +1,7 @@
 //General//
 @import "./general/tipografia.scss";
 @import "./general/colores.scss";
+@import "./general/colores.scss";
 
 //Layout//
 @import "./layout/header.scss";
@@ -14,3 +15,46 @@
 @import "./paginas/ventas.scss";
 @import "./paginas/alquileres.scss";
 @import "./paginas/tasaciones.scss";
+
+
+//Mixin Mobile//
+
+@mixin movil(){
+    @media screen and (max-width:576px){
+        @content;
+    }
+}
+
+p{
+    font-size: 16px;
+
+    @include movil(){
+        font-size: 14px;
+    }
+}
+
+@mixin movil(){
+    @media screen and (max-width:576px){
+        @content;
+    }
+}
+
+.propiedadesDestacadas{
+    font-size: 20px;
+
+    @include movil(){
+        font-size: 15px;
+        font-size: $negrita;
+    }
+}
+
+//Operaciones//
+
+.carTitulo{
+    font-size: 15px+20px;
+}
+
+.TitleTasaciones{
+    font-size: 15px+20px;
+}
+

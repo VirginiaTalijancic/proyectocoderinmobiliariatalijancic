@@ -9,12 +9,6 @@ p, li, a {
 p, li, a {
   font-weight: "bold"; }
 
-header .containerHeader {
-  border: 5px #470b0b solid;
-  display: flexbox;
-  justify-content: center;
-  justify-items: center; }
-
 header .header__navLogo {
   width: 3em; }
 
@@ -89,7 +83,8 @@ main .mainLoteos {
   border-radius: 5px; }
 
 #galeria {
-  border: 5px solid black; }
+  border: 5px solid black;
+  margin-top: 10px; }
 
 #galeria .col-lg-4 {
   margin: 0 !important;
@@ -105,34 +100,14 @@ main .mainLoteos {
 #galeria img:hover {
   filter: blur(2px); }
 
-.colors-light-gray {
-  background-color: #f8f9fa;
-  color: #495057; }
-
-.sideText, .product-text, .empresa-text {
-  font-size: 1em;
-  font-style: italic;
-  font-weight: lighter;
-  line-height: 1.5em; }
-
-.p-5 {
-  padding: 3rem !important; }
-
-.align-self-center {
-  align-self: center !important; }
-
-.colors-dark {
-  background-color: #212529;
-  color: #fff; }
-
-.mb-4 {
-  margin-bottom: 1.5rem !important; }
-
-.mt-4 {
-  margin-top: 1.5rem !important; }
-
-.justify-content-center {
-  justify-content: center !important; }
+.buttonInmobiliaria {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background-color: #721a1a;
+  font-weight: "bold";
+  color: white;
+  border-radius: 5px; }
 
 footer .mapaFooter {
   color: #dd0303;
@@ -156,3 +131,22 @@ footer .navFooter {
   display: flex;
   justify-content: center;
   padding-top: 10px; }
+
+p {
+  font-size: 16px; }
+  @media screen and (max-width: 576px) {
+    p {
+      font-size: 14px; } }
+
+.propiedadesDestacadas {
+  font-size: 20px; }
+  @media screen and (max-width: 576px) {
+    .propiedadesDestacadas {
+      font-size: 15px;
+      font-size: "bold"; } }
+
+.carTitulo {
+  font-size: 35px; }
+
+.TitleTasaciones {
+  font-size: 35px; }

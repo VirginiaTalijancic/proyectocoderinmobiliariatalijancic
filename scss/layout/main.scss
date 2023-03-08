@@ -1,4 +1,5 @@
 main{
+    
     .mainInmobiliaria{
         height: 100vh;
         background-image: url(/fotos/banner.jpg);
@@ -59,6 +60,7 @@ main{
 
     #galeria{
         border: 5px solid black;
+        margin-top: 10px;
     }
 
    #galeria .col-lg-4{
@@ -79,39 +81,24 @@ main{
    #galeria img:hover{
     filter: blur(2px);
    }
+  
 
 
 
-.colors-light-gray {
-    background-color: #f8f9fa;
-    color: #495057;
-}
 
-.sideText, .product-text, .empresa-text {
-    font-size: 1em;
-    font-style: italic;
-    font-weight: lighter;
-    line-height: 1.5em;
-}
 
-.p-5 {
-    padding: 3rem!important;
-}
-.align-self-center {
-    align-self: center!important;
-}
+   .buttonInmobiliaria{
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        background-color: $background-color_3;
+        font-weight: $negrita;
+        color: $color_6;
+        border-radius: 5px;
 
-.colors-dark {
-    background-color: #212529;
-    color: #fff;
-}
-.mb-4 {
-    margin-bottom: 1.5rem!important;
-}
-.mt-4 {
-    margin-top: 1.5rem!important;
-}
-.justify-content-center {
-    justify-content: center!important;
-}
+   }
+
+
+
+
 
