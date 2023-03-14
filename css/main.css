@@ -38,7 +38,7 @@ header .titulo-header {
 
 main .mainInmobiliaria {
   height: 100vh;
-  background-image: url(../fotos/banner.jpg);
+  background-image: url(/fotos/banner.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -150,3 +150,33 @@ p {
 
 .TitleTasaciones {
   font-size: 35px; }
+
+
+  .containerAlquiler{
+  width: 100%;
+  height: auto;
+  display: flex !important; 
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+  .card{
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    transition: 0,75s all ease-in-out;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
+
+  
+    
+    
