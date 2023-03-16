@@ -2,7 +2,7 @@ main{
     
     .mainInmobiliaria{
         height: 100vh;
-        background-image: url(/fotos/banner.jpg);
+        background-image: url(/fotos/baner.jpg);
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -10,7 +10,7 @@ main{
     }
 
     .mainLoteos{
-        background-image: url(/fotos/LOTEOS-2.jpg);
+        background-image: url(/fotos/loteo.jpg);
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -144,4 +144,16 @@ main{
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 30px 20px 10px;
+}
+
+.titulo-ventas{
+    display: flex;
+}
+
+.containerVenta{
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
