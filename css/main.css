@@ -38,14 +38,14 @@ header .titulo-header {
 
 main .mainInmobiliaria {
   height: 100vh;
-  background-image: url(/fotos/baner.jpg);
+  background-image: url(../fotos/baner.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center; }
 
 main .mainLoteos {
-  background-image: url(/fotos/loteo.jpg);
+  background-image: url(/fotos/baner.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
