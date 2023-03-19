@@ -206,7 +206,7 @@ footer .navFooter {
 
 .Tasaciones {
   height: 100vh;
-  background-image: url(../fotos/tasaciones.pgn);
+  background-image: url(../fotos/tasaciones.png);
   background-size: cover;
   display: flex;
   justify-content: center;
