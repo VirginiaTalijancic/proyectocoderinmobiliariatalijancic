@@ -48,6 +48,19 @@ p{
     }
 }
 
+.containerBox{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+    @include movil(){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    }
+}
+
 
 //Operaciones//
 

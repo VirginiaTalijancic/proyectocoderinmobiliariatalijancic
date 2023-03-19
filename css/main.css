@@ -45,7 +45,7 @@ main .mainInmobiliaria {
   align-items: center; }
 
 main .mainLoteos {
-  background-image: url(/fotos/baner.jpg);
+  background-image: url(../fotos/baner.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -161,12 +161,34 @@ main .mainLoteos {
 .titulo-ventas {
   display: flex; }
 
+.titulo-Alquleres {
+  color: brown;
+  font-weight: bold; }
+
 .containerVenta {
   width: 100%;
   height: auto;
   display: flex !important;
   flex-wrap: wrap;
   justify-content: center; }
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #721a1a;
+  font-weight: bold; }
+
+.card-body {
+  color: black;
+  font-weight: bold; }
+
+.buttonAlquiler {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: #721a1a;
+  font-weight: bold; }
 
 footer .mapaFooter {
   color: #dd0303;
@@ -203,6 +225,17 @@ p {
     .propiedadesDestacadas {
       font-size: 15px;
       font-size: "bold"; } }
+
+.containerBox {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center; }
+  @media screen and (max-width: 576px) {
+    .containerBox {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column; } }
 
 .carTitulo {
   font-size: 35px; }

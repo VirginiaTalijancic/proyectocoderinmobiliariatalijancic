@@ -10,7 +10,7 @@ main{
     }
 
     .mainLoteos{
-        background-image: url(/fotos/baner.jpg);
+        background-image: url(../fotos/baner.jpg);
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -150,10 +150,36 @@ main{
     display: flex;
 }
 
+.titulo-Alquleres{
+    color: $color_4;
+    font-weight: bold;
+}
+
 .containerVenta{
     width: 100%;
     height: auto;
     display: flex !important;
     flex-wrap: wrap;
     justify-content: center; 
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: $background-color_3;
+    font-weight:bold;
+}
+
+.card-body{
+    color: $color_1;
+    font-weight: bold;
+}
+
+.buttonAlquiler{
+    display: flex;
+    justify-content: center;
+    color: $color_1;
+    background-color: $background-color_3;
+    font-weight: bold;
 }
