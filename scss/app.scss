@@ -61,6 +61,18 @@ p{
     }
 }
 
+.Tasaciones{
+  height: 100vh;
+  background-image:url(/fotos/tasacion-y-valoracion-perito-arquitecto-peritacion-dictamen-pericial.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include movil(){
+    height: 50vh;
+  }
+}
 
 //Operaciones//
 

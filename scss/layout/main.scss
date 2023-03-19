@@ -10,7 +10,7 @@ main{
     }
 
     .mainLoteos{
-        background-image: url(../fotos/baner.jpg);
+        background-image: url(../fotos/LOTEOS-2.jpg);
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -179,7 +179,13 @@ main{
 .buttonAlquiler{
     display: flex;
     justify-content: center;
-    color: $color_1;
+    color: white;
+    background-color: rgb(90, 86, 86);
+    font-weight: bold;
+}
+
+.propiedades-Destacadas{
+    color: white;
     background-color: $background-color_3;
     font-weight: bold;
 }
