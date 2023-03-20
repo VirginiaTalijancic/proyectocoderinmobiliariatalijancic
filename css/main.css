@@ -219,6 +219,11 @@ footer .navFooter {
   justify-content: center;
   padding-top: 10px; }
 
+.boton-tasacion {
+  border-radius: 10px;
+  background-color: #470b0b;
+  color: white; }
+
 p {
   font-size: 16px; }
   @media screen and (max-width: 576px) {
