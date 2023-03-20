@@ -155,13 +155,6 @@ main{
     font-weight: bold;
 }
 
-.containerVenta{
-    width: 100%;
-    height: auto;
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: center; 
-}
 
 .card-header{
     display: flex;
@@ -190,3 +183,9 @@ main{
     font-weight: bold;
 }
 
+.containerVenta {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center; }

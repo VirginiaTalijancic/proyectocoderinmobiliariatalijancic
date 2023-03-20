@@ -165,13 +165,6 @@ main .mainLoteos {
   color: brown;
   font-weight: bold; }
 
-.containerVenta {
-  width: 100%;
-  height: auto;
-  display: flex !important;
-  flex-wrap: wrap;
-  justify-content: center; }
-
 .card-header {
   display: flex;
   justify-content: center;
@@ -194,6 +187,13 @@ main .mainLoteos {
   color: white;
   background-color: #721a1a;
   font-weight: bold; }
+
+.containerVenta {
+  width: 100%;
+  height: auto;
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 footer .mapaFooter {
   color: #dd0303;
