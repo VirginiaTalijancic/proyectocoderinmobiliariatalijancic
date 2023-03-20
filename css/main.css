@@ -204,9 +204,9 @@ footer .navFooter {
   color: black;
   font-weight: "bold"; }
 
-.Tasaciones {
+.tasaciones {
   height: 100vh;
-  background-image: url(/fotos/tasacion.jpg);
+  background-image: url(../fotos/valor.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -243,15 +243,15 @@ p {
       justify-content: center;
       flex-direction: column; } }
 
-.Tasaciones {
+.tasaciones {
   height: 100vh;
-  background-image: url(/fotos/tasacion-y-valoracion-perito-arquitecto-peritacion-dictamen-pericial.jpg);
+  background-image: url(../fotos/valor.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center; }
   @media screen and (max-width: 576px) {
-    .Tasaciones {
+    .tasaciones {
       height: 50vh; } }
 
 .carTitulo {
