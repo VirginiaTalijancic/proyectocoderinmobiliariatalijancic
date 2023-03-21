@@ -58,30 +58,22 @@ main{
         border-radius: 5px;
     }
 
-    #galeria{
+    #galeria {
         border: 5px solid black;
         margin-top: 10px;
+        .col-lg-4 {
+            margin: 0 !important;
+            padding: 25px;
+        }
+        img {
+            width: 100%;
+            height: 250px;
+            &:hover {
+                border: 5px solid rgb(114, 26, 26);
+                transform: scale(1.2);
+            }
+        }
     }
-
-   #galeria .col-lg-4{
-        margin: 0 !important;
-        padding: 25px;
-   }
-
-   #galeria img{
-        width: 100%;
-        height: 250px;
-   }
-
-   #galeria img:hover{
-        border: 5px solid rgb(114, 26, 26);
-
-   }
-
-   #galeria img:hover{
-    filter: blur(2px);
-   }
-  
 
    .buttonInmobiliaria{
         display: flex;
@@ -93,41 +85,32 @@ main{
         border-radius: 5px;
    }
 
-   .containerAlquiler {
-    width: 100%;
-    height: auto;
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: center; }
-  
-  .card {
-    width: 100%;
-    max-width: 350px; }
-  
-  .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    transition: 0,75s all ease-in-out; }
-  
-  .card:hover {
-    transform: scale(1.1); }
+   $color_1: $color_3;
 
-  .titulo-Alquileres{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    color: $color_3;
-    font-weight: $negrita;
-    margin-bottom: 10px;
-  }  
-
-  .card-footer{
-    display: flex;
-    justify-content: center;
-    color: $color_3;  
-  }
+.containerAlquiler {
+	width: 100%;
+	height: auto;
+	display: flex !important;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card {
+	width: 100%;
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	transition: 0,75s all ease-in-out;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+.card-footer {
+	display: flex;
+	justify-content: center;
+	color: $color_1;
+}
 
   .containerBox{
   display: flex !important;
@@ -146,35 +129,41 @@ main{
     padding: 30px 20px 10px;
 }
 
-.titulo-ventas{
-    display: flex;
+
+$color_1: white;
+$color_2: $color_1;
+$background-color_1: $background-color_3;
+
+.titulo-Alquileres {
+	display: flex;
+	justify-content: center;
+	background-color: $background-color_1;
+	color: $color_1;
+	font-weight: $negrita;
+}
+.card-header {
+	display: flex;
+	justify-content: center;
+	color: $color_1;
+	background-color: $background-color_1;
+	font-weight: bold;
+}
+.card-body {
+	color: black;
+	font-weight: bold;
+}
+.buttonAlquiler {
+	display: flex;
+	justify-content: center;
+	background-color: $background-color_1;
+	color: $color_1;
+	font-weight: bold;
 }
 
-.titulo-Alquleres{
-    color: $color_4;
-    font-weight: bold;
-}
 
-
-.card-header{
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-color: $background-color_3;
-    font-weight:bold;
-}
-
-.card-body{
-    color: $color_1;
-    font-weight: bold;
-}
-
-.buttonAlquiler{
-    display: flex;
-    justify-content: center;
-    color: white;
+.buttonAlquiler:hover{
     background-color: rgb(90, 86, 86);
-    font-weight: bold;
+    color: $color_1;
 }
 
 .propiedades-Destacadas{
@@ -189,3 +178,11 @@ main{
     display: flex !important;
     flex-wrap: wrap;
     justify-content: center; }
+
+.titulo-Venta{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-weight: $negrita;
+    background-color: $background-color_3;
+}
