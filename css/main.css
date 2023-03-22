@@ -199,6 +199,12 @@ footer .navFooter {
   color: black;
   font-weight: bold; }
 
+.tituloLoteo {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #721a1a; }
+
 .tasaciones {
   height: 100vh;
   background-image: url(../fotos/valor.jpg);

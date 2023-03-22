@@ -4,35 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
   <!-- Animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Keywords -->
-  <meta name="keywords" content="LOTEOS,ALQUILERES,VENTA,BIENES INMUEBLES,TASACIONES,DESAROLLO INMOBILIARIO,CASA,DEPARTAMENTO">
+  <meta name="keywords"
+    content="LOTEOS,ALQUILERES,VENTA,BIENES INMUEBLES,TASACIONES,DESAROLLO INMOBILIARIO,CASA,DEPARTAMENTO">
   <!-- Link Bootstrap .css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif&display=swap" rel="stylesheet">
   <!-- My CSS -->
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="shortcut icon" href="../fotos/logo.jpg" type="logo"/>
-   <!-- Title -->
+  <link rel="shortcut icon" href="../fotos/logo.jpg" type="logo" />
+  <!-- Title -->
   <title>Alquileres-Inmobiliaria Buenas Raíces-</title>
   <!-- Description -->
   <meta name="description" content="Inmobiliaria Buenas Raíces es una empresa del rubro Inmobiliario, con año de experiencia que nos avalan,
   obteniendo las mejores propiedades para alquilar.">
-  
 </head>
 
-<body class="bodyInmobiliaria">
+<body>
 
   <!-- Header -->
-
   <header class="container-fluid containerHeader">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="./index.html">
-          <img src="../fotos/logo.jpg" alt="" class="header__navLogo header__navLogo animate__animated animate__flipInX">
+          <img src="../fotos/logo.jpg" alt=""
+            class="header__navLogo header__navLogo animate__animated animate__flipInX">
         </a>
         <h1 class="titulo-header">Inmobiliaria Buenas Raices</h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -63,8 +63,6 @@
   </header>
 
   <!-- Main -->
-
-  
   <main>
     <div class="container-fluid mainInmobiliaria">
       <div class="row">
@@ -73,251 +71,215 @@
         </div>
         <div class="col-12 col-md-auto">
           <input type="text" class="form-control" placeholder="Lugar">
-          
         </div>
         <div class="col-12 col-md-auto">
           <button class="btn btn-primary buttonInmobiliaria" type="button"> Buscar</button>
         </div>
-          
       </div>
     </div>
 
+    <!-- Select box -->
+    <section class="container-fluid containerBox">
+      <div class="row">
+        <div class="col-12 col-md-auto">
+          <select class="select-box">
+            <option value=""> Provincia</option>
+            <option value="Santa Fe"> Santa Fe</option>
+          </select>
+        </div>
+      </div>
 
-<!-- Select box -->
-
-<section class="container-fluid containerBox">
-  <div class="row">
-    <div class="col-12 col-md-auto">
-      <select class="select-box">
-        <option value=""> Provincia</option>
-        <option value="Santa Fe"> Santa Fe</option>
-      </select>
-     </div>
- </div>
- 
-
- <div class="col-12 col-md-auto">
-  <select class="select-box">
-    <option value=""> Todas las localidades</option>
-    <option value="Reconquista">Reconquista </option>
-    <option value="Avellaneda"> Avellaneda</option>
-    <option value="Santa Fe"> Santa Fe</option>
-    <option value="Berna"> Berna</option>
-    <option value="Rosario"> Rosario</option>
-  </select>
- </div>
-</div>
-
-<div class="col-12 col-md-auto">
-  <select class="select-box">
-    <option value=""> Tipo de operación</option>
-    <option value="Compra">Compra</option>
-    <option value="Alquiler"> Alquiler</option>
-    <option value="Venta"> Venta</option>
-    <option value="Loteos"> Loteos</option>
-  </select>
- </div>
-</div>
-
-
-<div class="col-12 col-md-auto">
-  <select class="select-box">
-    <option value=""> Dormitorios</option>
-    <option value="Santa Fe"> 1</option>
-    <option value="Buenos Aires"> 2</option>
-    <option value="Chaco"> 3</option>
-    <option value="Corrientes"> más de 3</option>
-  </select>
- </div>
-</div>
-
-
-
-</section>
-
-
-
+      <div class="col-12 col-md-auto">
+        <select class="select-box">
+          <option value=""> Todas las localidades</option>
+          <option value="Reconquista">Reconquista </option>
+          <option value="Avellaneda"> Avellaneda</option>
+          <option value="Santa Fe"> Santa Fe</option>
+          <option value="Berna"> Berna</option>
+          <option value="Rosario"> Rosario</option>
+        </select>
+      </div>
+      
+      <div class="col-12 col-md-auto">
+        <select class="select-box">
+          <option value=""> Tipo de operación</option>
+          <option value="Compra">Compra</option>
+          <option value="Alquiler"> Alquiler</option>
+          <option value="Venta"> Venta</option>
+          <option value="Loteos"> Loteos</option>
+        </select>
+      </div>
+    
+      <div class="col-12 col-md-auto">
+        <select class="select-box">
+          <option value=""> Dormitorios</option>
+          <option value="Santa Fe"> 1</option>
+          <option value="Buenos Aires"> 2</option>
+          <option value="Chaco"> 3</option>
+          <option value="Corrientes"> más de 3</option>
+        </select>
+      </div>
+      </div>
+    </section>
 
     <!-- Container: Cards -->
     <h2 class="titulo-Alquileres">ALQUILERES</h2>
     <section class="container-fluid containerAlquiler">
       <div class="row">
         <div class="col-12">
-       </div>
-      
-       <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Casa de dos habitaciones, zona céntrica.
-          </div>
-          <img src="../fotos/casa frente.jpeg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>2 Dormitorios</p>
-            <p>2 Baños</p>
-            <p>1 Garaje</p>
-          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
+          <div class="card">
+            <div class="card-header">
+              Casa de dos habitaciones, zona céntrica.
+            </div>
+            <img src="../fotos/casa frente.jpeg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>2 Dormitorios</p>
+              <p>2 Baños</p>
+              <p>1 Garaje</p>
+            </div>
             <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
+              <button class="buttonAlquiler">VER MÁS</button>
             </div>
           </div>
         </div>
-      
         <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Casa en alquiler, nueva a estrenar.
-          </div>
-          <img src="../fotos/Experiencia-Casa-Living-Nota-3.jpg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>3 Dormitorios</p>
-            <p>1 Baños</p>
-            <p>1 Garaje</p>
-            <p>Patio</p>
-          </div>
-          <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Casa en alquiler, excelente ubicación.
-          </div>
-          <img src="../fotos/casa anto por dentro.jpeg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>2 Dormitorios</p>
-            <p>2 Baños</p>
-            <p>1 Garaje</p>
-            <p>1 Quincho</p>
-          </div>
-          <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
+          <div class="card">
+            <div class="card-header">
+              Casa en alquiler, nueva a estrenar.
+            </div>
+            <img src="../fotos/Experiencia-Casa-Living-Nota-3.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>3 Dormitorios</p>
+              <p>1 Baños</p>
+              <p>1 Garaje</p>
+              <p>Patio</p>
+            </div>
+            <div class="card-footer">
+              <button class="buttonAlquiler">VER MÁS</button>
+            </div>
           </div>
         </div>
-      </div>
-      
-
-      <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Casa de tres habitaciones, excelente condiciones.
-          </div>
-          <img src="../fotos/casa garaje.jpeg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>3 Dormitorios</p>
-            <p>2 Baños</p>
-            <p>1 Garaje</p>
-            <p>Patio con pileta</p>
-          </div>
-          <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
+        <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
+          <div class="card">
+            <div class="card-header">
+              Casa en alquiler, excelente ubicación.
+            </div>
+            <img src="../fotos/casa anto por dentro.jpeg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>2 Dormitorios</p>
+              <p>2 Baños</p>
+              <p>1 Garaje</p>
+              <p>1 Quincho</p>
+            </div>
+            <div class="card-footer">
+              <button class="buttonAlquiler">VER MÁS</button>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Casa amplia, zona céntrica.
-          </div>
-          <img src="../fotos/casa living.jpeg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>4 Dormitorios</p>
-            <p>3 Baños</p>
-            <p>1 Garaje</p>
-            <p>1 Quincho</p>
-            <p>Patio con pileta</p>
-          </div>
-          <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
+        <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
+          <div class="card">
+            <div class="card-header">
+              Casa de tres habitaciones, excelente condiciones.
+            </div>
+            <img src="../fotos/casa garaje.jpeg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>3 Dormitorios</p>
+              <p>2 Baños</p>
+              <p>1 Garaje</p>
+              <p>Patio con pileta</p>
+            </div>
+            <div class="card-footer">
+              <button class="buttonAlquiler">VER MÁS</button>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Excelente casa, con pileta.
-          </div>
-          <img src="../fotos/pileta.jpg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>2 Dormitorios</p>
-            <p>2 Baños</p>
-            <p>1 Garaje</p>
-            <p>Quincho con instalaciones</p>
-            <p>Pileta</p>
-          </div>
-          <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Casa en alquiler, zona urbana.
-          </div>
-          <img src="../fotos/como-decorar-una-casa-moderna-elegante-y-bonita.jpg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>2 Dormitorios</p>
-            <p>2 Baños</p>
-            <p>1 Garaje</p>
-          </div>
-          <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
+        <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
+          <div class="card">
+            <div class="card-header">
+              Casa amplia, zona céntrica.
+            </div>
+            <img src="../fotos/casa living.jpeg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>4 Dormitorios</p>
+              <p>3 Baños</p>
+              <p>1 Garaje</p>
+              <p>1 Quincho</p>
+              <p>Patio con pileta</p>
+            </div>
+            <div class="card-footer">
+              <button class="buttonAlquiler">VER MÁS</button>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Casa en alquiler amplia, excelente zona.
-          </div>
-          <img src="../fotos/cocina.jpg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>4 Dormitorios</p>
-            <p>2 Baños</p>
-            <p>2 Garaje</p>
-          </div>
-          <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
-        <div class="card">
-          <div class="card-header">
-            Casa en Alquiler, zona centrica.
-          </div>
-          <img src="../fotos/casa living.jpeg" alt="" class="card-img-top">
-          <div class="card-body">
-            <p>2 Dormitorios</p>
-            <p>2 Baños</p>
-            <p>1 Garaje</p>
-          </div>
-          <div class="card-footer">
-            <button class="buttonAlquiler">VER MÁS</button>
+        <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
+          <div class="card">
+            <div class="card-header">
+              Excelente casa, con pileta.
+            </div>
+            <img src="../fotos/pileta.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>2 Dormitorios</p>
+              <p>2 Baños</p>
+              <p>1 Garaje</p>
+              <p>Quincho con instalaciones</p>
+              <p>Pileta</p>
+            </div>
+            <div class="card-footer">
+              <button class="buttonAlquiler">VER MÁS</button>
+            </div>
           </div>
         </div>
-      </div>
-      
-      
-
-
-
-
-
-
-
+        <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
+          <div class="card">
+            <div class="card-header">
+              Casa en alquiler, zona urbana.
+            </div>
+            <img src="../fotos/como-decorar-una-casa-moderna-elegante-y-bonita.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>2 Dormitorios</p>
+              <p>2 Baños</p>
+              <p>1 Garaje</p>
+            </div>
+            <div class="card-footer">
+              <button class="buttonAlquiler">VER MÁS</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
+          <div class="card">
+            <div class="card-header">
+              Casa en alquiler amplia, excelente zona.
+            </div>
+            <img src="../fotos/cocina.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>4 Dormitorios</p>
+              <p>2 Baños</p>
+              <p>2 Garaje</p>
+            </div>
+            <div class="card-footer">
+              <button class="buttonAlquiler">VER MÁS</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 mt-3 p-5">
+          <div class="card">
+            <div class="card-header">
+              Casa en Alquiler, zona centrica.
+            </div>
+            <img src="../fotos/casa living.jpeg" alt="" class="card-img-top">
+            <div class="card-body">
+              <p>2 Dormitorios</p>
+              <p>2 Baños</p>
+              <p>1 Garaje</p>
+            </div>
+            <div class="card-footer">
+              <button class="buttonAlquiler">VER MÁS</button>
+            </div>
+          </div>
+        </div>
     </section>
-
-    
 
   </main>
 
@@ -340,8 +302,10 @@
         <div class="col-6 col-lg-4 col-xl-2">
           <h5 class="mapaFooter">Redes Sociales</h5>
           <nav class="nav flex-column">
-            <a class="nav-link navFooter" href="https://www.facebook.com/BuenasRaicesInmo" target="_blank"> <i class="bx bxl-facebook-square"></i> Facebook</a>
-            <a class="nav-link navFooter" href="https://www.instagram.com/inmobiliariabuenasraices/?hl=es" target="_blank"> <i class="bx bxl-instagram"></i> Instagram</a>
+            <a class="nav-link navFooter" href="https://www.facebook.com/BuenasRaicesInmo" target="_blank"> <i
+                class="bx bxl-facebook-square"></i> Facebook</a>
+            <a class="nav-link navFooter" href="https://www.instagram.com/inmobiliariabuenasraices/?hl=es"
+              target="_blank"> <i class="bx bxl-instagram"></i> Instagram</a>
           </nav>
         </div>
         <!-- Footer: Contact Info -->
@@ -370,7 +334,6 @@
     </div>
 
   </footer>
-
   <!-- Link Bootstrap .js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
