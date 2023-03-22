@@ -258,10 +258,17 @@ p {
   align-items: center; }
   @media screen and (max-width: 576px) {
     .tasaciones {
-      height: 50vh; } }
+      height: auto; } }
+
+.titleTasacion {
+  color: #721a1a;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
+  @media screen and (max-width: 576px) {
+    .titleTasacion {
+      font-size: 13px; } }
 
 .carTitulo {
-  font-size: 35px; }
-
-.TitleTasaciones {
   font-size: 35px; }

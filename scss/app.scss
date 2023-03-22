@@ -68,15 +68,21 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     @include movil(){
-    height: 50vh;
+    height: auto;
     }
-    
-    
-
 }
 
+.titleTasacion{
+    color:rgb(114, 26, 26);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    @include movil(){
+       font-size: 13px;
+    }
+  }
 
 
 //Operaciones//
@@ -85,7 +91,5 @@ p{
     font-size: 15px+20px;
 }
 
-.TitleTasaciones{
-    font-size: 15px+20px;
-}
+
 
