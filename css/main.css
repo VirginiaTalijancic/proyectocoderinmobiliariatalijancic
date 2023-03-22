@@ -211,7 +211,8 @@ footer .navFooter {
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  overflow-x: hidden; }
 
 .titleTasacion {
   color: #721a1a;
